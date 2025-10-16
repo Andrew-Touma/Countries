@@ -10,7 +10,8 @@ function handleSelection(){
             let country_info = document.getElementById('country_info');
             let capital = json[0].capital[0];
             let population = json[0].population;
-            country_info.innerHTML = `The capital of ${json[0].name.common} is : ${capital} with a population equal to ${population}`;
+            country_info.innerHTML = `The capital of ${json[0].name.common} is : ${capital}.
+            ${json[0].name.common} has a population equal to ${population}`;
             // printing population
         });
 }
