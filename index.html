@@ -6,8 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="loadCountries()">Reveal All countries</button> 
-    <select id="ddl_countries" onchange="handleSelection()"></select> <span style="margin-left:10px;" id="country_info"></span>
+    <h1>Country Finder</h1>
+    <button onclick="loadCountries()" class="buttonStyle">Reveal All countries</button> 
+    <select id="ddl_countries" onchange="handleSelection()" class="buttonStyle"></select> 
+    <span style="margin-left:10px;" id="country_info"></span>
     <div id="div_flags"></div>
 
     <script src="./index.js"></script>

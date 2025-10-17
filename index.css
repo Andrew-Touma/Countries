@@ -1,7 +1,21 @@
+
+body{
+    text-align: center;
+}
 .ClassFlag { 
     border: 2px solid black;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 10px;
+}
+.buttonStyle{
+    padding: 10px;
+    font-size: 12px;
+    border: black solid 3px;
+    margin: 5px
+}
+.Info{
+    font-size: 18px;
+    margin: 5px;
 }
